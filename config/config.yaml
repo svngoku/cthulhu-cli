@@ -1,0 +1,9 @@
+registry: registry.example.com
+namespace: default
+imageTag: latest
+aws:
+  region: us-east-1
+  roleArn: arn:aws:iam::123456789012:role/eks-service-role
+clusters:
+  - name: prod
+    provider: eks
