@@ -239,6 +239,16 @@ Key dependencies include:
 - Viper for configuration management
 - Zap for structured logging
 
+## 🛣️ Roadmap
+
+Our short-term goals are focused on stability and expanding cloud support:
+
+1. **Add Unit Tests:** Provide test coverage for `internal` and `pkg` packages.
+2. **Canary Deployments:** Implement canary release logic for safer rollouts.
+3. **GKE/AKS Support:** Abstract provider layer to support GKE and AKS clusters.
+4. **Plugin System:** Allow custom commands through a plugin architecture.
+5. **v1 Release:** Polish the CLI and publish a stable v1.0.
+
 ## 🤝 Contributing
 
 1. Fork the repository
